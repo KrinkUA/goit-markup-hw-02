@@ -1,0 +1,55 @@
+:root{
+    /* Fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+    /* Text colors */
+    --main-txt-color: #212121;
+    --grey-txt-color:#757575;
+    --accent-txt-color:#2196F3;
+
+    /* Background colors*/
+    --accent-bg-color:#2196F3;
+
+
+    /* Other */
+}
+
+/* Reset */
+.link{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list{
+    list-style: none;
+}
+
+.page{
+    font-family: var(--main-font);
+    color: var(--main-txt-color);
+
+}
+
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--main-txt-color);
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: var(--accent-txt-color);
+}
+
+.address{
+color: var(--grey-txt-color)
+}
+
+
+
+
+
+/* для btn прописуєм наслідування inheryt*/
